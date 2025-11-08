@@ -1,2 +1,8 @@
+# virtualenv
 venv/
-notes/.obsidian
+.venv/
+
+# other
+__pycache__/
+.ipynb_checkpoints/
+
