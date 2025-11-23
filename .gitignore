@@ -3,6 +3,12 @@ venv/
 .venv/
 
 # other
+data/
 __pycache__/
 .ipynb_checkpoints/
 
+# vim
+*.sw?
+*.swo
+*.swn
+.DS_Store
