@@ -52,9 +52,15 @@ def train(num_epochs=10, lr=0.001):
               f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}% | "
               f"Test Loss: {test_loss:.4f}, Test Acc: {test_acc:.2f}%")
 
+    save_model(model)
     save_history(history)
     return model, history
 
+def save_model(model, path='checkpoints/mnist_model.pt'):
+    torch.save(model.state_dict(), path)
+    print(f"Model saved to {path}")
+
 if __name__ == "__main__":
-    model, history = train(num_epochs=10, lr=0.001)
+    model, history = train(num_epochs=5, lr=0.001)
+    print(f"\nFinal Test Accuracy: {history['test_acc'][-1]:.2f}%")
 
