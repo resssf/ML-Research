@@ -4,7 +4,6 @@ numpy
 pandas
 matplotlib
 jupyter
-json
 scikit-learn
 seaborn
 tqdm
