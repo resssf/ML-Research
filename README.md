@@ -18,13 +18,6 @@ ml-research/
 ├── docs/                             # Документация и справочные материалы
 ├── notebooks/                        # Jupyter-ноутбуки
 ├── projects/                         # Отдельные исследовательские мини-проекты
-├── research/                         # НОВЫЙ: Исследовательские проекты
-│   └── activity_bounds/
-│       ├── data/                     # Toy instances, results
-│       ├── notebooks/                # Jupyter-ноутбуки
-│       ├── src/                      # Core code
-│       ├── README.md                 # Детали проекта
-│       └── notes.md
 ├── scripts/                          # Рабочие скрипты и утилиты
 └── README.md                         # Описание проекта
 ```
