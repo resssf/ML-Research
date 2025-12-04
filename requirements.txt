@@ -1,9 +1,19 @@
-torch
-torchvision
-numpy
-pandas
-matplotlib
-jupyter
-scikit-learn
-seaborn
-tqdm
+# === Core numerical & data structures ===
+numpy>=2.3.4
+pandas>=2.3.3
+
+# === Visualization ===
+matplotlib>=3.10.7
+seaborn>=0.13.2
+
+# === Machine learning ===
+scikit-learn>=1.7.3
+
+# === Developer productivity / UX ===
+tqdm>=4.67.1
+jupyter>=1.1.1
+
+# === PyTorch (CPU only) ===
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.9.0
+torchvision==0.24.0
